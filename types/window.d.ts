@@ -1,7 +1,7 @@
 declare global {
-  interface Window {
-    // foo: string;
-  }
+    interface Window {
+        aptos?: any;
+    }
 }
 
-// export const foo = window.foo
+export const aptos = window?.aptos;
